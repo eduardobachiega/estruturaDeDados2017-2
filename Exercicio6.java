@@ -20,7 +20,7 @@ public class Main {
             String categoria;
             do {
                 System.out.print("Categoria: ");
-                categoria = sc.next();
+                categoria = sc.next().toUpperCase();
             } while (!categoria.equals("G") && !categoria.equals("O"));
 
             double valorHoraTrabalhada;
