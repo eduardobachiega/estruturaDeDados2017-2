@@ -11,9 +11,9 @@ public class Exercicio3 {
         Scanner sc = new Scanner(System.in);
 
         for (int i = 0; i < array1.length; i++) {
-            System.out.printf("Array 1 [%d]: ");
+            System.out.printf("Array 1 [%d]: ", i);
             array1[i] = sc.nextInt();
-            System.out.printf("Array 2 [%d]: ");
+            System.out.printf("Array 2 [%d]: ", i);
             array2[i] = sc.nextInt();
         }
 
